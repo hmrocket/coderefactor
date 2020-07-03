@@ -14,6 +14,20 @@
 		AC08EE0924AEE577009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
 		AC08EE0C24AEE577009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
 		AC08EE0F24AEE577009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
+		AC08EE1824AEE634009B52E8 /* Salewhale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0324AEE576009B52E8 /* Salewhale.xcdatamodeld */; };
+		AC08EE1924AEE634009B52E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EDFF24AEE576009B52E8 /* AppDelegate.swift */; };
+		AC08EE1A24AEE634009B52E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0624AEE576009B52E8 /* ContentView.swift */; };
+		AC08EE1B24AEE634009B52E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0124AEE576009B52E8 /* SceneDelegate.swift */; };
+		AC08EE1E24AEE634009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
+		AC08EE1F24AEE634009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
+		AC08EE2024AEE634009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
+		AC08EE2824AEE64D009B52E8 /* Salewhale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0324AEE576009B52E8 /* Salewhale.xcdatamodeld */; };
+		AC08EE2924AEE64D009B52E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EDFF24AEE576009B52E8 /* AppDelegate.swift */; };
+		AC08EE2A24AEE64D009B52E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0624AEE576009B52E8 /* ContentView.swift */; };
+		AC08EE2B24AEE64D009B52E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0124AEE576009B52E8 /* SceneDelegate.swift */; };
+		AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
+		AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
+		AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +40,28 @@
 		AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC08EE0E24AEE577009B52E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC08EE1024AEE577009B52E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC08EE2424AEE634009B52E8 /* Salewhale Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salewhale Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC08EE2524AEE634009B52E8 /* Salewhale copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy-Info.plist"; sourceTree = "<absolute>"; };
+		AC08EE3424AEE64D009B52E8 /* MesPromos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesPromos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC08EE3524AEE64D009B52E8 /* Salewhale copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy2-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy2-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC08EDF924AEE576009B52E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC08EE1C24AEE634009B52E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC08EE2C24AEE64D009B52E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +76,8 @@
 			children = (
 				AC08EDFE24AEE576009B52E8 /* Salewhale */,
 				AC08EDFD24AEE576009B52E8 /* Products */,
+				AC08EE2524AEE634009B52E8 /* Salewhale copy-Info.plist */,
+				AC08EE3524AEE64D009B52E8 /* Salewhale copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				AC08EDFC24AEE576009B52E8 /* Salewhale.app */,
+				AC08EE2424AEE634009B52E8 /* Salewhale Staging.app */,
+				AC08EE3424AEE64D009B52E8 /* MesPromos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +134,40 @@
 			productReference = AC08EDFC24AEE576009B52E8 /* Salewhale.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AC08EE1624AEE634009B52E8 /* Salewhale Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC08EE2124AEE634009B52E8 /* Build configuration list for PBXNativeTarget "Salewhale Staging" */;
+			buildPhases = (
+				AC08EE1724AEE634009B52E8 /* Sources */,
+				AC08EE1C24AEE634009B52E8 /* Frameworks */,
+				AC08EE1D24AEE634009B52E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salewhale Staging";
+			productName = Salewhale;
+			productReference = AC08EE2424AEE634009B52E8 /* Salewhale Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC08EE2624AEE64D009B52E8 /* MesPromos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC08EE3124AEE64D009B52E8 /* Build configuration list for PBXNativeTarget "MesPromos" */;
+			buildPhases = (
+				AC08EE2724AEE64D009B52E8 /* Sources */,
+				AC08EE2C24AEE64D009B52E8 /* Frameworks */,
+				AC08EE2D24AEE64D009B52E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MesPromos;
+			productName = Salewhale;
+			productReference = AC08EE3424AEE64D009B52E8 /* MesPromos.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -127,6 +197,8 @@
 			projectRoot = "";
 			targets = (
 				AC08EDFB24AEE576009B52E8 /* Salewhale */,
+				AC08EE1624AEE634009B52E8 /* Salewhale Staging */,
+				AC08EE2624AEE64D009B52E8 /* MesPromos */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +214,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC08EE1D24AEE634009B52E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC08EE1E24AEE634009B52E8 /* LaunchScreen.storyboard in Resources */,
+				AC08EE1F24AEE634009B52E8 /* Preview Assets.xcassets in Resources */,
+				AC08EE2024AEE634009B52E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC08EE2D24AEE64D009B52E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */,
+				AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */,
+				AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -153,6 +245,28 @@
 				AC08EE0024AEE576009B52E8 /* AppDelegate.swift in Sources */,
 				AC08EE0724AEE576009B52E8 /* ContentView.swift in Sources */,
 				AC08EE0224AEE576009B52E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC08EE1724AEE634009B52E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC08EE1824AEE634009B52E8 /* Salewhale.xcdatamodeld in Sources */,
+				AC08EE1924AEE634009B52E8 /* AppDelegate.swift in Sources */,
+				AC08EE1A24AEE634009B52E8 /* ContentView.swift in Sources */,
+				AC08EE1B24AEE634009B52E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC08EE2724AEE64D009B52E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC08EE2824AEE64D009B52E8 /* Salewhale.xcdatamodeld in Sources */,
+				AC08EE2924AEE64D009B52E8 /* AppDelegate.swift in Sources */,
+				AC08EE2A24AEE64D009B52E8 /* ContentView.swift in Sources */,
+				AC08EE2B24AEE64D009B52E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +438,86 @@
 			};
 			name = Release;
 		};
+		AC08EE2224AEE634009B52E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
+				DEVELOPMENT_TEAM = KPB9Y5VHVU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Salewhale copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC08EE2324AEE634009B52E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
+				DEVELOPMENT_TEAM = KPB9Y5VHVU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Salewhale copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC08EE3224AEE64D009B52E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
+				DEVELOPMENT_TEAM = KPB9Y5VHVU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Salewhale copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC08EE3324AEE64D009B52E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
+				DEVELOPMENT_TEAM = KPB9Y5VHVU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Salewhale copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +535,24 @@
 			buildConfigurations = (
 				AC08EE1424AEE577009B52E8 /* Debug */,
 				AC08EE1524AEE577009B52E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC08EE2124AEE634009B52E8 /* Build configuration list for PBXNativeTarget "Salewhale Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC08EE2224AEE634009B52E8 /* Debug */,
+				AC08EE2324AEE634009B52E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC08EE3124AEE64D009B52E8 /* Build configuration list for PBXNativeTarget "MesPromos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC08EE3224AEE64D009B52E8 /* Debug */,
+				AC08EE3324AEE64D009B52E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

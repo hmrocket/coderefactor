@@ -74,6 +74,7 @@ func previewWithNavigationController(_ webViewController: UIViewController) -> s
     UIViewControllerPreview {
         let n = UINavigationController()
         n.pushViewController(webViewController, animated: true)
+        n.navigationBar.isHidden = true
         return n
     }
 }

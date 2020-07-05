@@ -82,6 +82,8 @@ func previewWithNavigationController(_ webViewController: UIViewController) -> s
 class Browser: UIViewController {
     var webView = WKWebView()
     override func viewDidLoad() {
+        _ = LocationManager()
+
         self.view.addSubview(webView)
         self.webView.translatesAutoresizingMaskIntoConstraints = false
         self.webView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true

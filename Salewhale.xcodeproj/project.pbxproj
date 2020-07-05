@@ -28,6 +28,9 @@
 		AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
 		AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
 		AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
+		F0A2245C24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
+		F0A2245D24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
+		F0A2245E24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,7 @@
 		AC08EE2524AEE634009B52E8 /* Salewhale copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy-Info.plist"; sourceTree = "<absolute>"; };
 		AC08EE3424AEE64D009B52E8 /* MesPromos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesPromos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC08EE3524AEE64D009B52E8 /* Salewhale copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy2-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy2-Info.plist"; sourceTree = "<absolute>"; };
+		F0A2245B24B25189003F71C9 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				AC08EDFF24AEE576009B52E8 /* AppDelegate.swift */,
 				AC08EE0124AEE576009B52E8 /* SceneDelegate.swift */,
 				AC08EE0624AEE576009B52E8 /* ContentView.swift */,
+				F0A2245B24B25189003F71C9 /* LocationManager.swift */,
 				AC08EE0824AEE577009B52E8 /* Assets.xcassets */,
 				AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */,
 				AC08EE1024AEE577009B52E8 /* Info.plist */,
@@ -243,6 +248,7 @@
 			files = (
 				AC08EE0524AEE576009B52E8 /* Salewhale.xcdatamodeld in Sources */,
 				AC08EE0024AEE576009B52E8 /* AppDelegate.swift in Sources */,
+				F0A2245C24B25189003F71C9 /* LocationManager.swift in Sources */,
 				AC08EE0724AEE576009B52E8 /* ContentView.swift in Sources */,
 				AC08EE0224AEE576009B52E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -254,6 +260,7 @@
 			files = (
 				AC08EE1824AEE634009B52E8 /* Salewhale.xcdatamodeld in Sources */,
 				AC08EE1924AEE634009B52E8 /* AppDelegate.swift in Sources */,
+				F0A2245D24B25189003F71C9 /* LocationManager.swift in Sources */,
 				AC08EE1A24AEE634009B52E8 /* ContentView.swift in Sources */,
 				AC08EE1B24AEE634009B52E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -265,6 +272,7 @@
 			files = (
 				AC08EE2824AEE64D009B52E8 /* Salewhale.xcdatamodeld in Sources */,
 				AC08EE2924AEE64D009B52E8 /* AppDelegate.swift in Sources */,
+				F0A2245E24B25189003F71C9 /* LocationManager.swift in Sources */,
 				AC08EE2A24AEE64D009B52E8 /* ContentView.swift in Sources */,
 				AC08EE2B24AEE64D009B52E8 /* SceneDelegate.swift in Sources */,
 			);

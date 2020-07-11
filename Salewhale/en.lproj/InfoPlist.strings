@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Salewhale
+
+  Created by Carine Domingo on 2020-07-11.
+  Copyright © 2020 Salewhale. All rights reserved.
+*/
+"NSLocationWhenInUseUsageDescription" = "SaleWhale uses your location to provide you with the flyer information for your area.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SaleWhale uses your location to provide you with the flyer information for your area.";
+"CFBundleDisplayName" = "Salewhale";

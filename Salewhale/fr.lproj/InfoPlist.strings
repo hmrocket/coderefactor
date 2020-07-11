@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Salewhale
+
+  Created by Carine Domingo on 2020-07-11.
+  Copyright © 2020 Salewhale. All rights reserved.
+*/
+"NSLocationWhenInUseUsageDescription" = "Mespromos se sert de votre position pour vous fournir les informations de circulaires dans votre région.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Mespromos se sert de votre position pour vous fournir les informations de circulaires dans votre région.";
+"CFBundleDisplayName" = "MesPromos";

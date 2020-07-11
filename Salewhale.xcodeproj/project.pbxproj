@@ -28,6 +28,8 @@
 		AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
 		AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
 		AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
+		F02E33D124B9E73B00EA5E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */; };
+		F02E33D224B9E73B00EA5E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */; };
 		F0A2245C24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
 		F0A2245D24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
 		F0A2245E24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
@@ -44,9 +46,11 @@
 		AC08EE0E24AEE577009B52E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC08EE1024AEE577009B52E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08EE2424AEE634009B52E8 /* Salewhale Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salewhale Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC08EE2524AEE634009B52E8 /* Salewhale copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy-Info.plist"; sourceTree = "<absolute>"; };
 		AC08EE3424AEE64D009B52E8 /* MesPromos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesPromos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC08EE3524AEE64D009B52E8 /* Salewhale copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Salewhale copy2-Info.plist"; path = "/Users/mhamed/xcodeProjects/Salewhale/Salewhale copy2-Info.plist"; sourceTree = "<absolute>"; };
+		F02E33C724B9E5A900EA5E36 /* Salewhale Staging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Salewhale Staging-Info.plist"; sourceTree = "<group>"; };
+		F02E33C824B9E5A900EA5E36 /* Mespromos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mespromos-Info.plist"; sourceTree = "<group>"; };
+		F02E33D324B9E73B00EA5E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F02E33D524B9E74A00EA5E36 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0A2245B24B25189003F71C9 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +84,6 @@
 			children = (
 				AC08EDFE24AEE576009B52E8 /* Salewhale */,
 				AC08EDFD24AEE576009B52E8 /* Products */,
-				AC08EE2524AEE634009B52E8 /* Salewhale copy-Info.plist */,
-				AC08EE3524AEE64D009B52E8 /* Salewhale copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +106,10 @@
 				F0A2245B24B25189003F71C9 /* LocationManager.swift */,
 				AC08EE0824AEE577009B52E8 /* Assets.xcassets */,
 				AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */,
+				F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */,
 				AC08EE1024AEE577009B52E8 /* Info.plist */,
+				F02E33C824B9E5A900EA5E36 /* Mespromos-Info.plist */,
+				F02E33C724B9E5A900EA5E36 /* Salewhale Staging-Info.plist */,
 				AC08EE0324AEE576009B52E8 /* Salewhale.xcdatamodeld */,
 				AC08EE0A24AEE577009B52E8 /* Preview Content */,
 			);
@@ -195,6 +200,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = AC08EDF324AEE576009B52E8;
 			productRefGroup = AC08EDFD24AEE576009B52E8 /* Products */;
@@ -214,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC08EE0F24AEE577009B52E8 /* LaunchScreen.storyboard in Resources */,
+				F02E33D124B9E73B00EA5E36 /* InfoPlist.strings in Resources */,
 				AC08EE0C24AEE577009B52E8 /* Preview Assets.xcassets in Resources */,
 				AC08EE0924AEE577009B52E8 /* Assets.xcassets in Resources */,
 			);
@@ -234,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */,
+				F02E33D224B9E73B00EA5E36 /* InfoPlist.strings in Resources */,
 				AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */,
 				AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */,
 			);
@@ -289,6 +297,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02E33D324B9E73B00EA5E36 /* en */,
+				F02E33D524B9E74A00EA5E36 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -296,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -342,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -396,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -454,7 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Salewhale copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Salewhale/Salewhale Staging-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +493,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Salewhale copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Salewhale/Salewhale Staging-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Salewhale copy2-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Salewhale/Mespromos-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,7 +533,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Salewhale copy2-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Salewhale/Mespromos-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

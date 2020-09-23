@@ -29,7 +29,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-#if canImport(SwiftUI) && DEBUG
+#if canImport(SwiftUI)
 import SwiftUI
 struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControllerRepresentable {
     let viewController: ViewController
@@ -49,7 +49,7 @@ struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControll
 }
 #endif
 
-#if canImport(SwiftUI) && DEBUG
+#if canImport(SwiftUI) 
 import SwiftUI
 struct UIViewPreview<View: UIView>: UIViewRepresentable {
     let view: View

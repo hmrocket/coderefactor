@@ -10,7 +10,6 @@
 		AC00CF41251A20B90080BF01 /* Mespromos-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F02E33C824B9E5A900EA5E36 /* Mespromos-Info.plist */; };
 		AC00CF47251BCF9F0080BF01 /* Salewhale Staging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F02E33C724B9E5A900EA5E36 /* Salewhale Staging-Info.plist */; };
 		AC00CF4A251BD0150080BF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
-		AC00CF50251BDFDC0080BF01 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC00CF4F251BDFDC0080BF01 /* MapKit.framework */; };
 		AC08EE0024AEE576009B52E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EDFF24AEE576009B52E8 /* AppDelegate.swift */; };
 		AC08EE0224AEE576009B52E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0124AEE576009B52E8 /* SceneDelegate.swift */; };
 		AC08EE0524AEE576009B52E8 /* Salewhale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC08EE0324AEE576009B52E8 /* Salewhale.xcdatamodeld */; };
@@ -63,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC00CF50251BDFDC0080BF01 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,6 +30,8 @@
 		AC08EE2E24AEE64D009B52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0D24AEE577009B52E8 /* LaunchScreen.storyboard */; };
 		AC08EE2F24AEE64D009B52E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0B24AEE577009B52E8 /* Preview Assets.xcassets */; };
 		AC08EE3024AEE64D009B52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08EE0824AEE577009B52E8 /* Assets.xcassets */; };
+		AC5E71552533A63500FA422D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5E71542533A63500FA422D /* MapKit.framework */; };
+		AC5E715C2534777200FA422D /* Directions.geojson in Resources */ = {isa = PBXBuildFile; fileRef = AC5E714D25339DAC00FA422D /* Directions.geojson */; };
 		F02E33D124B9E73B00EA5E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */; };
 		F02E33D224B9E73B00EA5E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F02E33D424B9E73B00EA5E36 /* InfoPlist.strings */; };
 		F0A2245C24B25189003F71C9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2245B24B25189003F71C9 /* LocationManager.swift */; };
@@ -49,6 +51,8 @@
 		AC08EE1024AEE577009B52E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08EE2424AEE634009B52E8 /* Salewhale Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salewhale Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC08EE3424AEE64D009B52E8 /* MesPromos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesPromos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5E714D25339DAC00FA422D /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
+		AC5E71542533A63500FA422D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F02E33C724B9E5A900EA5E36 /* Salewhale Staging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Salewhale Staging-Info.plist"; sourceTree = "<group>"; };
 		F02E33C824B9E5A900EA5E36 /* Mespromos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mespromos-Info.plist"; sourceTree = "<group>"; };
 		F02E33D324B9E73B00EA5E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5E71552533A63500FA422D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,7 @@
 		AC00CF4E251BDFDC0080BF01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC5E71542533A63500FA422D /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,6 +97,7 @@
 		AC08EDF324AEE576009B52E8 = {
 			isa = PBXGroup;
 			children = (
+				AC5E714D25339DAC00FA422D /* Directions.geojson */,
 				AC08EDFE24AEE576009B52E8 /* Salewhale */,
 				AC08EDFD24AEE576009B52E8 /* Products */,
 				AC00CF4E251BDFDC0080BF01 /* Frameworks */,
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC00CF4A251BD0150080BF01 /* LaunchScreen.storyboard in Resources */,
+				AC5E715C2534777200FA422D /* Directions.geojson in Resources */,
 				F02E33D124B9E73B00EA5E36 /* InfoPlist.strings in Resources */,
 				AC08EE0C24AEE577009B52E8 /* Preview Assets.xcassets in Resources */,
 				AC08EE0924AEE577009B52E8 /* Assets.xcassets in Resources */,
@@ -442,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 44;
+				CURRENT_PROJECT_VERSION = 47;
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
@@ -451,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -464,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 44;
+				CURRENT_PROJECT_VERSION = 47;
 				DEVELOPMENT_ASSET_PATHS = "\"Salewhale/Preview Content\"";
 				DEVELOPMENT_TEAM = KPB9Y5VHVU;
 				ENABLE_PREVIEWS = YES;
@@ -473,7 +481,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bamstrategy.Salewhale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
